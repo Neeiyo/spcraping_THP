@@ -18,10 +18,9 @@ def crypto_scrapper
   end
 end
 
-
-
 def perform
-  crypto_scrapper
+crypto_scrapper
 end
+
 
 perform
