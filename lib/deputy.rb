@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# frozen_string_literal: true
 
-require 'nokogiri'
-=======
   require 'nokogiri'
 require 'open-uri'
 
@@ -36,11 +32,9 @@ end
 end
 
  	
+def perform
+ 	deputy_info
+end
 
+perform
 
- 	def perform
- 		deputy_info
- 	end
-
- 	perform
->>>>>>> 3363d60d9405741d94a885d0bb171da9b20451a6
