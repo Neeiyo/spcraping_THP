@@ -1,5 +1,5 @@
 require_relative '../lib/crypto_scrapper.rb'
-require "rspec/autorun"
+
 # La liste est vide?
 
 describe "crypto_monney" do
