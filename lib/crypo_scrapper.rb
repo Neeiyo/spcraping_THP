@@ -16,8 +16,10 @@ def xpath
 	#price = price.to_sym
 	#puts price.content
 	#puts name.content => price.content
-	array = name.content << (" => #{price.content}")
-	puts array
+	array = ("\{ \"name.content\"") << (" => #{price.content} \}, ")
+	array_fin = Hash.new
+	array_fin = array
+	puts array_fin
 end
 end 
   x += 1
